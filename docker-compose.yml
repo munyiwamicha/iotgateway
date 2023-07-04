@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  mqttgateway:
+    image: munyi/mqttgateway
+    build: ./
+    container_name: mqttgateway
+    ports:
+      - 8759:3000

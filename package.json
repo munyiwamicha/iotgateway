@@ -1,0 +1,27 @@
+{
+  "name": "mqttgateway",
+  "version": "3.0.0",
+  "description": " (HTTP) to MQTT bridge for Fleetr",
+  "main": "index.js",
+  "scripts": {
+    "dev": "micro-dev",
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munyiwamicha/mqttgateway.git"
+  },
+  "author": "Stephen Munyi <munyiwamicha@gmail.com> (https://munyiwamicha.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munyiwamicha/mqttgateway/issues"
+  },
+  "homepage": "https://github.com/munyiwamicha/mqttgateway#readme",
+  "dependencies": {
+    "micro": "^9.3.3",
+    "mqtt": "^4.2.8"
+  },
+  "devDependencies": {
+    "micro-dev": "^0.0.2"
+  }
+}
