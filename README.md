@@ -27,7 +27,8 @@ npm install
 node server.js
 ```
 
-####Alternatively you may use the tutorial below to run your application.
+#### Alternative Implementation Method 
+You may use the tutorial below to run your application.
 https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/install-run-debug-nodejs
 
 Under step Number 4 of the Above tutorial, replace Repository URL with the repo below 
