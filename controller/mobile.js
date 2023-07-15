@@ -14,6 +14,8 @@ Axios is a JS Library used to make HTTP Posts and Requests. Used to post the bod
 
 const validator = require('validator');
 
+// Validator is used to handle input validation of location data from the phone and ensure it is the correct data being received
+
 require('dotenv').config();
 
 // dotenv config referrences to the file that contains environment variables
@@ -21,7 +23,7 @@ require('dotenv').config();
 const platformUrl = process.env.URL;
 
 /**
-platformUrl takes the URL or IP from the environment file (.env).
+platformUrl takes the URL or IP of an IOT Platform from the environment file (.env).
 **/
 
 if(!platformUrl){
