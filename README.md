@@ -27,9 +27,18 @@ npm install
 node server.js
 ```
 
+<<<<<<< HEAD
 #### Alternative Implementation Method 
+=======
+#### Alternative Implementation Method
+
+Install the Node Extension Pack for VS Code found below
+https://marketplace.visualstudio.com/items?itemName=waderyan.nodejs-extension-pack
+
+>>>>>>> bb7a20d (Updates to IOT HTTP Gateway)
 You may use the tutorial below to run your application.
 https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/install-run-debug-nodejs
+
 
 Under step Number 4 of the Above tutorial, replace Repository URL with the repo below 
 https://github.com/munyiwamicha/iotgateway.git
