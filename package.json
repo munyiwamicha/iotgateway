@@ -1,27 +1,27 @@
 {
-  "name": "mqttgateway",
-  "version": "3.0.0",
-  "description": " (HTTP) to MQTT bridge for Fleetr",
-  "main": "index.js",
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "Receives location data from a mobile and forwards it via http to a IoT Platform Url",
+  "main": "server.js",
   "scripts": {
-    "dev": "micro-dev",
-    "start": "micro"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/munyiwamicha/mqttgateway.git"
+    "url": "git+https://github.com/munyiwamicha/iotgateway.git"
   },
-  "author": "Stephen Munyi <munyiwamicha@gmail.com> (https://munyiwamicha.com)",
-  "license": "ISC",
+  "author": "Stephen Munyi",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/munyiwamicha/mqttgateway/issues"
+    "url": "https://github.com/munyiwamicha/iotgateway/issues"
   },
-  "homepage": "https://github.com/munyiwamicha/mqttgateway#readme",
+  "homepage": "https://github.com/munyiwamicha/iotgateway#readme",
   "dependencies": {
-    "micro": "^9.3.3",
-    "mqtt": "^4.2.8"
-  },
-  "devDependencies": {
-    "micro-dev": "^0.0.2"
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "validator": "^13.1.17"
   }
 }
