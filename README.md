@@ -4,6 +4,13 @@
     1. NodeJS
     2. Docker (Optional)
 
+Follow the installation Process of Node on your (Windows) machine
+
+https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows
+
+Download link for NodeJS
+https://nodejs.org/en/download
+
 ### Clone the repository
 
 ```bash
@@ -14,8 +21,18 @@ git clone https://github.com/munyiwamicha/iotgateway.git
 ```bash
 npm install
 ```
-
-For production installation, use the following
+### Runnig the Node app on Port 8759
 ```bash
-
+node server.js
 ```
+
+
+## Forwarding to an IoT Platform.
+Within the .env file you may edit the values for URL as the IOT Platform URL
+For this demo, we will be using Thingsboard, an Open-Source IOT Platform as an endpoint.
+The Database Used is 
+
+Installation steps can be found below:
+
+https://thingsboard.io/docs/user-guide/install/installation-options/
+

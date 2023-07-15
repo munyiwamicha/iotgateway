@@ -1,9 +1,9 @@
 version: '2.1'
 
 services:
-  mqttgateway:
-    image: munyi/mqttgateway
+  iotgateway:
+    image: netpals/iotgateway
     build: ./
-    container_name: mqttgateway
+    container_name: iotgateway
     ports:
-      - 8759:3000
+      - 8892:8759
