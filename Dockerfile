@@ -1,13 +1,14 @@
-FROM node:10-alpine
+FROM node:16-alpine
 
 ADD . /app/
 
 WORKDIR /app
 
-RUN npm install --production
+RUN npm install
 
 EXPOSE 8759
 
-ENTRYPOINT ["npm"]
+CMD ["node", "server.js"]
+#ENTRYPOINT ["npm"]
 
-CMD ["start"]
+#CMD ["start"]
