@@ -8,7 +8,7 @@ and forward them to Thingsboard using HTTP
 const axios = require('axios');
 
 /**
-Axios is a JS Library used to make HTTP Posts and Requests. Used to post the body v
+Axios is a JS Library used to make HTTP Posts and Requests. Used to post the body 
 **/
 
 
