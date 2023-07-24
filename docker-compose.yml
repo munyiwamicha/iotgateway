@@ -2,8 +2,8 @@ version: '2.1'
 
 services:
   iotgateway:
-    image: netpals/iotgateway
+    image: netpals/iotgatewaymain
     build: ./
-    container_name: iotgateway
+    container_name: iotgatewaymain
     ports:
-      - 8892:8759
+      - 8081:8081

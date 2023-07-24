@@ -8,7 +8,7 @@ const iothttpgateway = require('./controller/mobile');
 
 const app =  express();
 
-const gatewayPort = process.env.PORT || 8759;
+const gatewayPort = process.env.PORT || 8081;
 
 require('dotenv').config();
 
