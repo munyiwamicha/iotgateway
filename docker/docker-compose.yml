@@ -52,7 +52,7 @@ services:
   
   iotgateway:
     image: netpals/iotgatewaymain
-    build: ./
+    #build: ./
     container_name: iotgatewaymain
     ports:
       - "8081:8081"
