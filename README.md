@@ -41,7 +41,7 @@ https://github.com/munyiwamicha/iotgateway.git
 
 After cloning the repo from within you may run the app from within VS Code by using the F5 Key
 
-## Forwarding to an IoT Platform.
+## Forwarding to an IoT Platform (Thingsboard).
 Within the .env file you may edit the values for URL as the IOT Platform URL
 For this demo, we will be using Thingsboard, an Open-Source IOT Platform as an endpoint.
 The Database Used is 
